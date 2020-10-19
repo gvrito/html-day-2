@@ -8,31 +8,46 @@
 <body>
     <table>
         <tr>
-            <th>Day</th>
-            <th colspan="3">Seminar</th>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
         </th>
+        <tr>
+            <td colspan="2" align="center">schedule</td>
+            <td colspan="2" rowspan="2" align="center">topic</td>
+        </tr>
+        <tr>
+            <td align="center">begin</td>
+            <td align="center">end</td>
+        </tr>
         <tr>
             <td rowspan="2">Monday</td>
             <td rowspan="2">8:00 am</td>
             <td rowspan="2">5:00 pm</td>
-            <td>Introduction to xml</td>
-            <td>validity: dtd and relax ng</td>
+            <td align="center">Introduction to xml</td>
         </tr>
         <tr>
-            <td rowspan="3">Tuesday</td>
+            <td align="center">validity: dtd and relax ng</td>
+        </tr>
+        <tr>
+            <td rowspan="3">tuesday</td>
             <td>8:00 am</td>
             <td>11:00 am</td>
-            <td>2:00 pm</td>
-            <td>2:00 pm</td>
-            <td>5:00 pm</td>
-            <td rowspan="2">xpath</td>
-            <td rowspan="2">xsl transformations</td>
+            <td rowspan="1.5" colspan="2" align="center">xpath</td>
         </tr>
         <tr>
-            <td rowspan="2">Wednesday</td>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+        </tr>
+        <tr>
+            <td>2:00 pm</td>
+            <td>5:00 pm</td>
+            <td rowspan="1.5" colspan="2" align="center">xsl transformations</td>
+        </tr>
+        <tr>
+            <td>wednesday</td>
             <td>8:00 am</td>
             <td>12:00 pm</td>
-            <td>xsl formatting objects</td>
+            <td align="center">xsl fotmatting objects</td>
         </tr>
     </table>
     <style>
